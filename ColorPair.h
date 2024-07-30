@@ -1,5 +1,7 @@
 #include "ColorCoder.h"
 #include <string>
+#include <iostream>
+#include <cassert>
 namespace TelCoColorCoder {
 class ColorPair {
         private:
