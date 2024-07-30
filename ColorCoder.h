@@ -1,5 +1,9 @@
+#ifndef COLORCODER_H
+#define COLORCODER_H
+
 #include <iostream>
 #include <assert.h>
+
 
 namespace TelCoColorCoder 
 {
@@ -10,4 +14,8 @@ namespace TelCoColorCoder
 	
     const char* MinorColorNames[];
 
+    ColorPair GetColorFromPairNumber(int pairNumber);
+    int GetPairNumberFromColor(MajorColor major, MinorColor minor
+
 }
+#endif // COLORCODER_H
