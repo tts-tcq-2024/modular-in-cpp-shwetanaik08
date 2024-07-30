@@ -1,6 +1,6 @@
 #include "ColorCoder.h"
 #include "ColorPair.h"
-namespace TeleCommuColorCoder 
+namespace TelCoColorCoder 
 {
     const char* MajorColorNames[] = {
         "White", "Red", "Black", "Yellow", "Violet"
