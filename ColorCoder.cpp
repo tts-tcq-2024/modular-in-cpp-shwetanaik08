@@ -2,6 +2,14 @@
 #include "ColorPair.h"
 namespace TeleCommuColorCoder 
 {
+    const char* MajorColorNames[] = {
+        "White", "Red", "Black", "Yellow", "Violet"
+    };
+
+    const char* MinorColorNames[] = {
+        "Blue", "Orange", "Green", "Brown", "Slate"
+    };
+
     int numberOfMajorColors = sizeof(TelCoColorCoder::MajorColorNames) / sizeof(TelCoColorCoder::MajorColorNames[0]);
     int numberOfMinorColors = sizeof(TelCoColorCoder::MinorColorNames) / sizeof(TelCoColorCoder::MinorColorNames[0]);
 
